@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import './assets/styles/index.css';
 
 ReactDOM.render(
-  <div>
-    <h1>はじめまして</h1>
-    <p>私はreactを勉強します</p>
-  </div>,
-
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById("root")
 );
-
