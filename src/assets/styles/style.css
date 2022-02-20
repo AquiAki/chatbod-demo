@@ -24,6 +24,7 @@
     transform: translate(-50%, -50%);
 }
 
+/* カラム型にフレックスボックスを作る。 */
 .c-grid__answer {
     display: flex;
     flex-flow: column;
@@ -43,6 +44,7 @@
     width: auto;
 }
 
+/* justify-content: flex-start :コンテナの中で左から順番に要素を並べる */
 .p-chat__row {
     display: flex;
     flex-direction: row;
@@ -50,6 +52,7 @@
     padding-right: 0 !important;
 }
 
+/* flex-direction: row-reverse ：　右から並べる */
 .p-chat__reverse {
     display: flex;
     flex-direction: row-reverse;
